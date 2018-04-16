@@ -1,4 +1,4 @@
-CREATE DATABASE kraken;
+CREATE DATABASE IF NOT EXISTS kraken;
 USE kraken;
 
 CREATE TABLE IF NOT EXISTS customer (name VARCHAR(69), address VARCHAR(69), PRIMARY KEY (address));

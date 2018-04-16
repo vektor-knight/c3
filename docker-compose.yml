@@ -1,0 +1,6 @@
+db:
+  image: 4391283d0f8d
+  environment:
+    MYSQL_ROOT_PASSWORD: 'root'
+  volumes:
+    - ./docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
